@@ -1,5 +1,37 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #253336;
+}
+body header .logo {
+  position: absolute;
+}
+body header .logo .logo__logotype {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: -20px;
+  left: -20px;
+}
+body header .logo .logo__figures {
+  position: absolute;
+  left: 504px;
+}
+body main .main__wrapper {
+  background-color: #fff;
+  color: black;
+  position: relative;
+  top: 700px;
+  padding: 30px;
 }
