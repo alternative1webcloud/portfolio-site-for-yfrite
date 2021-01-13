@@ -1,12 +1,8 @@
 let squareOne = anime({
     targets: '.square1',
-    translateX: function() {
-        return anime.random(0, 5)
-    },
-    translateY: function() {
-        return anime.random(0, 5)
-    },
-    duration: 10000,
+    translateX: 5,
+    translateY: 40,
+    duration: 7000,
     direction: 'alternate',
     loop: true,
     easing: 'cubicBezier(.31,.54,.87,.35)'
@@ -151,47 +147,22 @@ let squareSix = anime({
     delay: 4000
 })
 
-let triangleOne =  anime({
+let triangleOne = anime({
     targets: '.tringle1',
-    translateX: [
-        {value: 250, duration: 4000, delay: 3000},
-        {value: 0, duration: 1000, delay: 500, rotate: '1turn'}
-    ],
-    translateY: [
-        {value: 80, duration: 2000, delay: 1000, rotate: '1turn'},
-        {value: 100, duration: 3000, delay: 2000},
-        {value: 50, duration: 6000, delay: 3000, rotate: '1turn'}
-    ],
     loop: true,
-    duration: 3500,
+    duration: 10000,
+    scaleX: 1.5,
     direction: 'alternate',
+    easing: 'easeOutInElastic(1, .6)',
+    translateX: -20
 })
 
-let triangleTwo =  anime({
+let triangleTwo = anime({
     targets: '.tringle2',
-    translateX: [
-        {value: 200, duration: 4000, delay: 2000},
-        {value: 100, duration: 1000, delay: 100, rotate: '1turn'}
-    ],
-    translateY: [
-        {value: -200, duration: 2000, delay: 2000, rotate: '1turn'},
-        {value: 300, duration: 3000, delay: 3500},
-        {value: 0, duration: 6000, delay: 6000, rotate: '1turn'}
-    ],
-    scaleX: [
-        { value: 4, duration: 100, delay: 500, easing: 'easeOutExpo' },
-        { value: 1, duration: 900 },
-        { value: 4, duration: 100, delay: 500, easing: 'easeOutExpo' },
-        { value: 1, duration: 900 }
-    ],
-    scaleY: [
-        { value: [1.75, 1], duration: 3500 },
-        { value: 2, duration: 50, delay: 1000, easing: 'easeOutExpo' },
-        { value: 1, duration: 4500 },
-        { value: 1.75, duration: 6000, delay: 1000, easing: 'easeOutExpo' },
-        { value: 1, duration: 4500 }
-    ],
     loop: true,
     duration: 5000,
     direction: 'alternate',
+    easing: 'easeOutBounce',
+    translateX: 40,
+    translateY: 15
 })
