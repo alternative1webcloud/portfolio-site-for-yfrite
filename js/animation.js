@@ -11,10 +11,10 @@ let squareOne = anime({
 let circleOne = anime({
     targets: '.circle1',
     translateY: function() {
-        return anime.random(0, 30)
+        return anime.random(10, 30)
     },
     translateX: function() {
-        return anime.random(0, 20)
+        return anime.random(10, 20)
     },
     easing: 'cubicBezier(.42,1.04,.17,-0.04)',
     loop: true,
