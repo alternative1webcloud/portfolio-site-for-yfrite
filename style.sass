@@ -35,39 +35,43 @@ $VK-Group-Theme-4-hsla: hsla(185, 100, 85, 1)
 $VK-Group-Theme-5-hsla: hsla(185, 46, 73, 1)
 
 /*Шрифты разной толщины*/
-$PoppinsThin: 100
-$PoppinsThinItalic: 100 cursive
+$Thin: 100
+$ThinItalic: 100 cursive
+$ExtraLight: 200
+$ExtraLightItalic: 200 cursive
+$Light: 300
+$LightItalic: 300 cursive
+$Regular: 400
+$RegularItalic: 400 cursive
+$Medium: 500 
+$MediumItalic: 500 cursive
+$Semi-bold: 600
+$Semi-boldItalic: 600 cursive
+$Bold: 700
+$BoldItalic: 700 cursive
+$ExtraBold: 800
+$ExtraBoldItalic: 800 cursive
+$Black: 900
+$BlackItalic: 900 cursive
 
-$PoppinsExtraLight: 200
-$PoppinsExtraLightItalic: 200 cursive
+/*Отступы*/
+$titleM: 50px
+$titleP: 20px
+$defM: 25px
+$defP: 25px
+$textM: 100px
+$textP: 30px
 
-$PoppinsLight: 300
-$PoppinsLightItalic: 300 cursive
-
-$PoppinsRegular: 400
-$PoppinsRegularItalic: 400 cursive
-
-$PoppinsMedium: 500 
-$PoppinsMediumItalic: 500 cursive
-
-$PoppinsSemi-bold: 600
-$PoppinsSemi-boldItalic: 600 cursive
-
-$PoppinsBold: 700
-$PoppinsBoldItalic: 700 cursive
-
-$PoppinsExtraBold: 800
-$PoppinsExtraBoldItalic: 800 cursive
-
-$PoppinsBlack: 900
-$PoppinsBlackItalic: 900 cursive
-
-
+/////////////////////////////////////////////////////////////////////////////////////
 * 
     margin: 0
     padding: 0
     box-sizing: border-box
     font-family: 'Poppins', sans-serif
+
+::selection
+    background-color: $VK-Group-Theme-2-hex
+    color: white
 
 body
     background-color: $Portfolio-Site-2-hex
@@ -89,15 +93,42 @@ body
             color: black
             position: relative
             top: 700px
-            padding: 30px
+            .main__block
+                .main__title
+                    h1
+                        font-size: 40px
+                        font-weigth: $Black
+                        text-align: center
+                        margin: $titleM
+                        padding: $titleP
+            .main__text
+                .main__subtitle 
+                    h2
+                        font-size: 36px
+                        font-weigth: $Bold
+                        margin: 0px $textM 0px $textM
+                .main__story
+                    width: 1100px
+                    p
+                        font-size: 24px
+                        font-weigth: $Semi-bold
+                        // padding: $textP
+                        margin: 30px $textM
 
-            // .main__block,
-            // .main__text 
-            //     position: absolute
-            //     padding: 10px
-            //     margin: 20px
-            // .main__text_white,
-            // .main__block_white
-            //     background-color: white
-            //     color: black
+
+            
+        .main__figures 
+            .main__figures_circle
+                position: relative
+                // width: 908px
+                // height: 908px
+                left: -70px
+                top: -400px
+            .main__figures_pattern
+                position: absolute
+                left: 1136px
+                top: 450px
+
+
+
 
