@@ -169,3 +169,22 @@ let triangleTwo = anime({
 })
 
 // .logo/.logotype__figures
+let logoAnimation = anime({
+    targets: '#logotype',
+    loop: true,
+    duration: 1500,
+    direction: 'alternate',
+    scale: 1.05,
+    easing: 'easeOutInBack',
+})
+
+// .main figures
+let circleLines = anime({
+    targets: '.main__figures_pattern .circleAnimation',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    delay: function(el, i) { return i * 250 },
+    direction: 'alternate',
+    loop: true
+})

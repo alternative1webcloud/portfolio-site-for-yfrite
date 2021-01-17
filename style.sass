@@ -78,16 +78,16 @@ body
     header 
         .logo 
             position: absolute
-            .logotype__figures
+            .logo__logotype
                 -ms-user-select: none
                 -moz-user-select: none
                 -khtml-user-select: none
                 -webkit-user-select: none
                 user-select: none
                 position: absolute
-                width: 300px
-                height: 300px
-                top: -20px
+                width: 200px
+                height: 200px
+                top: -70px
                 left: -20px
             .logo__figures
                 position: absolute
@@ -107,6 +107,8 @@ body
                         margin: $titleM
                         padding: $titleP
             .main__text
+                position: absolute
+                z-index: 2
                 .main__subtitle 
                     h2
                         font-size: 36px
@@ -123,16 +125,16 @@ body
 
             
         .main__figures 
-            .main__figures_circle
-                // position: relative
-                // width: 908px
-                // height: 908px
-                left: -30px
-                top: 1500px
             .main__figures_pattern
                 position: absolute
                 left: 1135px
-                top: 450px
+                top: 150px
+        .main__figures_two
+            .main__figures_circle
+                .circle
+                    position: relative
+                    top: -100px
+                    z-index: 1
 
 
 

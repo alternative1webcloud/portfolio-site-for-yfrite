@@ -22,16 +22,16 @@ body {
 body header .logo {
   position: absolute;
 }
-body header .logo .logotype__figures {
+body header .logo .logo__logotype {
   -ms-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
   position: absolute;
-  width: 300px;
-  height: 300px;
-  top: -20px;
+  width: 200px;
+  height: 200px;
+  top: -70px;
   left: -20px;
 }
 body header .logo .logo__figures {
@@ -51,6 +51,10 @@ body main .main__wrapper .main__block .main__title h1 {
   margin: 50px;
   padding: 20px;
 }
+body main .main__wrapper .main__text {
+  position: absolute;
+  z-index: 2;
+}
 body main .main__wrapper .main__text .main__subtitle h2 {
   font-size: 36px;
   font-weigth: 700;
@@ -64,12 +68,13 @@ body main .main__wrapper .main__text .main__story p {
   font-weigth: 600;
   margin: 30px 100px;
 }
-body main .main__figures .main__figures_circle {
-  left: -30px;
-  top: 1500px;
-}
 body main .main__figures .main__figures_pattern {
   position: absolute;
   left: 1135px;
-  top: 450px;
+  top: 150px;
+}
+body main .main__figures_two .main__figures_circle .circle {
+  position: relative;
+  top: -100px;
+  z-index: 1;
 }
