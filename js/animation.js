@@ -1,3 +1,4 @@
+// .logo/.logo__figures
 let squareOne = anime({
     targets: '.square1',
     translateX: 5,
@@ -166,3 +167,5 @@ let triangleTwo = anime({
     translateX: 40,
     translateY: 15
 })
+
+// .logo/.logotype__figures

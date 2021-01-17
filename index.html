@@ -4,7 +4,6 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width' initial-scale='1.0'>
     <link rel='stylesheet' href='css/style.css' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <title>YFrite | Моё портфолио</title>
@@ -13,7 +12,6 @@
     <!-- Хедер -->
     <header>
         <div class="logo">
-            <img src="img/Лого.png" alt="Logotype" class="logo__logotype animate__animated animate__fadeIn">
             <div class="logo__figures">
                 <svg width="917" height="667" viewBox="0 0 917 667" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="481.395" y="-4" width="518" height="518" transform="rotate(21.2088 481.395 -4)" fill="#20464F" class="square1"/>
@@ -39,21 +37,21 @@
         <div class="main__wrapper">
             <div class="main__block main__block_white">
                 <div class="main__title main__title_white">
-                    <h1>Добро пожаловать в моё портфолио</h1>
-                </div>
+                    <h1 class="wow slideInLeft" data-wow-delay="1s">Добро пожаловать в моё портфолио</h1>
+                </div>           
                 <div class="main__text main__text_white textAnimation">
                     <div class="main__subtitle main__subtitle_white">
-                        <h2>Привет!</h2>
+                        <h2 class="wow animate__rubberBand" data-wow-delay="2s">Привет!</h2>
                     </div>
                     <div class="main__story main__story_white ">
-                        <p>Меня зовут Булат, и я являюсь Android-разработчиком Несмотря на свой юный возраст, я разбираюсь в математических науках, имею базовые знания квантовой физики и основ математического анализа.
+                        <p>Меня зовут Булат, и я являюсь Android-разработчиком. Несмотря на свой юный возраст, я разбираюсь в математических науках, имею базовые знания квантовой физики и основ математического анализа.
                             Я очень дисциплинирован, и на меня можно положиться. Я могу спокойно взяться за любой проект. Сейчас я расскажу о себе поподробнее.</p>
                     </div>
                 </div>
-                <!-- <div class="main__figures">
+                <div class="main__figures">
                     <div class="main__figures_circle">
                         <svg width="378" height="908" viewBox="0 0 378 908" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="-76" cy="454" r="454" fill="url(#paint0_linear)"/>
+                            <circle cx="-76" cy="300" r="300" fill="url(#paint0_linear)"/>
                             <defs>
                             <linearGradient id="paint0_linear" x1="-76" y1="0" x2="-76" y2="908" gradientUnits="userSpaceOnUse">
                             <stop stop-color="#A3DFE6"/>
@@ -73,11 +71,16 @@
                             <circle r="279" transform="matrix(1 0 0 -1 554 285)" stroke="#A3DFE6" stroke-width="12"/>
                             </svg> 
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </main>
     <!-- Скрипты -->
+    <!-- WOW.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <!-- Anime.js -->
     <script src="js/anime.min.js"></script>
     <script src="js/animation.js"></script>
