@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
-/* Color Theme Swatches in HSLA */
 /*Шрифты разной толщины*/
 /*Отступы*/
 * {
@@ -45,6 +44,8 @@ body main .main__wrapper {
   top: 700px;
 }
 body main .main__wrapper .main__block .main__title h1 {
+  position: relative;
+  z-index: 100;
   font-size: 40px;
   font-weigth: 900;
   text-align: center;
@@ -64,17 +65,32 @@ body main .main__wrapper .main__text .main__story {
   width: 1100px;
 }
 body main .main__wrapper .main__text .main__story p {
-  font-size: 24px;
+  font-size: 26px;
   font-weigth: 600;
   margin: 30px 100px;
 }
 body main .main__figures .main__figures_pattern {
   position: absolute;
-  left: 1135px;
+  left: 1137px;
   top: 150px;
 }
-body main .main__figures_two .main__figures_circle .circle {
+body main .main__figures_two .main__figures_circle {
   position: relative;
   top: -100px;
   z-index: 1;
+}
+body main .main__block_green .main__text_green .main__subtitle_green h2 {
+  margin: 0px 100px 0px 200px;
+  padding: 20px;
+  color: white;
+  text-align: right;
+  width: 1120px;
+}
+body main .main__block_green .main__text_green .main__story_green,
+body main .main__block_green .main__text_green p {
+  font-size: 26px;
+  color: white;
+  text-align: right;
+  margin: 0px 100px 0px 200px;
+  width: 1100px;
 }

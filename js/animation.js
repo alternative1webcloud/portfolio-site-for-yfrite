@@ -188,3 +188,8 @@ let circleLines = anime({
     direction: 'alternate',
     loop: true
 })
+
+// .wave
+let waveAnimation = anime({
+    targets: 
+})

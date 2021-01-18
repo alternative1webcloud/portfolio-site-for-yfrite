@@ -22,17 +22,6 @@ $VK-Group-Theme-3-rgba: rgba(97,223,237, 1)
 $VK-Group-Theme-4-rgba: rgba(181,248,255, 1)
 $VK-Group-Theme-5-rgba: rgba(156,213,219, 1)
 
-/* Color Theme Swatches in HSLA */
-$Portfolio-Site-1-hsla: hsla(190, 17, 43, 1)
-$Portfolio-Site-2-hsla: hsla(190, 18, 17, 1)
-$Portfolio-Site-3-hsla: hsla(191, 42, 21, 1)
-$Portfolio-Site-4-hsla: hsla(190, 42, 35, 1)
-$Portfolio-Site-5-hsla: hsla(191, 39, 69, 1)
-$VK-Group-Theme-1-hsla: hsla(186, 65, 79, 1)
-$VK-Group-Theme-2-hsla: hsla(185, 68, 62, 1)
-$VK-Group-Theme-3-hsla: hsla(186, 79, 65, 1)
-$VK-Group-Theme-4-hsla: hsla(185, 100, 85, 1)
-$VK-Group-Theme-5-hsla: hsla(185, 46, 73, 1)
 
 /*Шрифты разной толщины*/
 $Thin: 100
@@ -101,6 +90,8 @@ body
             .main__block
                 .main__title
                     h1
+                        position: relative
+                        z-index: 100
                         font-size: 40px
                         font-weigth: $Black
                         text-align: center
@@ -117,24 +108,37 @@ body
                 .main__story
                     width: 1100px
                     p
-                        font-size: 24px
+                        font-size: 26px
                         font-weigth: $Semi-bold
                         // padding: $textP
                         margin: 30px $textM
 
-
-            
         .main__figures 
             .main__figures_pattern
                 position: absolute
-                left: 1135px
+                left: 1137px
                 top: 150px
         .main__figures_two
             .main__figures_circle
-                .circle
-                    position: relative
-                    top: -100px
-                    z-index: 1
+                position: relative
+                top: -100px
+                z-index: 1
+        .main__block_green
+            .main__text_green
+                .main__subtitle_green
+                    h2
+                        margin: 0px $textM 0px 200px
+                        padding: $titleP
+                        color: white
+                        text-align: right
+                        width: 1120px
+                .main__story_green, 
+                    p
+                        font-size: 26px
+                        color: white
+                        text-align: right
+                        margin: 0px $textM 0px 200px
+                        width: 1100px
 
 
 
