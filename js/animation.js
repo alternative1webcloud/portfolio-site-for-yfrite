@@ -190,6 +190,3 @@ let circleLines = anime({
 })
 
 // .wave
-let waveAnimation = anime({
-    targets: 
-})
