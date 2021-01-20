@@ -46,7 +46,7 @@ body main .main__wrapper {
 body main .main__wrapper .main__block .main__title h1 {
   position: relative;
   z-index: 100;
-  font-size: 40px;
+  font-size: 50px;
   font-weigth: 900;
   text-align: center;
   margin: 50px;
@@ -57,7 +57,7 @@ body main .main__wrapper .main__text {
   z-index: 2;
 }
 body main .main__wrapper .main__text .main__subtitle h2 {
-  font-size: 36px;
+  font-size: 42px;
   font-weigth: 700;
   margin: 0px 100px 0px 100px;
 }
@@ -65,7 +65,7 @@ body main .main__wrapper .main__text .main__story {
   width: 1100px;
 }
 body main .main__wrapper .main__text .main__story p {
-  font-size: 26px;
+  font-size: 32px;
   font-weigth: 600;
   margin: 30px 100px;
 }
@@ -80,17 +80,24 @@ body main .main__figures_two .main__figures_circle {
   z-index: 1;
 }
 body main .main__block_green .main__text_green .main__subtitle_green h2 {
-  margin: 0px 100px 0px 200px;
-  padding: 20px;
+  margin: 50px 0px -50px 0px;
   color: white;
   text-align: right;
-  width: 1120px;
+  width: 1300px;
 }
 body main .main__block_green .main__text_green .main__story_green,
 body main .main__block_green .main__text_green p {
-  font-size: 26px;
+  font-size: 36px;
   color: white;
   text-align: right;
-  margin: 0px 100px 0px 200px;
+  margin: 200px 100px;
   width: 1100px;
+}
+body main .main__block_green .main__text_green .main__figures .main__wave .wave {
+  width: 1420px;
+}
+
+.main_white {
+  position: absolute;
+  top: -1000px;
 }
