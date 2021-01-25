@@ -189,5 +189,3 @@ let circleLines = anime({
     loop: true
 })
 
-// Scroll
-$(" html, body ").animate( { scrollTop: $( '.main__wrapper' ).offset().top }, 1000 )
