@@ -116,6 +116,7 @@ body
                         font-weigth: $Bold
                         // padding: $textP
                         margin: 30px $textM
+            
 
         .main__figures 
             margin: 0
@@ -128,6 +129,8 @@ body
                 overflow-x: hidden
                 margin-bottom: -700px
                 margin-top: 100px
+                margin-left: 0
+                margin-right: 0
         .main__figures_two
             position: relative
             .main__figures_circle
@@ -138,19 +141,42 @@ body
             .main__text_green
                 background-color: $Portfolio-Site-2-hex
                 position: inherit
+                padding-top: 30px
                 .main__subtitle_green
-                    margin: $defM $textM
+                    padding: $titleP
+                    padding-bottom: 0
                     font-size: 30px
                     text-align: right
+                    color: white
                 .main__story_green 
                     p
-                        font-size: 25px
                         color: white
                         text-align: right
-                        margin: 200px 100px 400px
+                        margin-top: $textP
+                        margin-left: 130px
+                        margin-bottom: 300px
+                        font-size: 25px
+                        font-weigth: $Bold
                         width: 1100px
-                .main__illustration
-                    .main__wave
-                        
+        .main__subblock
+            background-color: white
+            color: black
+            position: relative
+            z-index: 10
+            top: -50px
+            padding: 40px
+            .main__text 
+                background-color: white
+                position: inherit
+                width: 400px
+                padding: 30px
+                margin: 30px
+                border: 7px solid $Portfolio-Site-5-rgba
+                border-radius: 40px
+                &:nth-child(1)
+                    left: 100px
+                &:nth-child(2)
+                    left: 700px
+
 
 
