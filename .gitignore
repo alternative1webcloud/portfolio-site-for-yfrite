@@ -5,3 +5,6 @@ anime.min.js
 wow.min.js
 objects.txt
 readme.md
+node_modules/
+package-lock.json
+.gitignore

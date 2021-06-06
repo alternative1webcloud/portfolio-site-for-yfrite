@@ -1,3 +1,10 @@
+// import Swiper from 'swiper'
+// import 'swiper/swiper-bundle.css'
+// import SwiperCore, { Navigation, Pagination } from 'swiper/core'
+// SwiperCore.use([Navigation, Pagination])
+
+// const swiper = new Swiper()
+
 // .logo/.logo__figures
 let squareOne = anime({
     targets: '.square1',
