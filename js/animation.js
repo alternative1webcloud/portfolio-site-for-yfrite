@@ -27,7 +27,7 @@ let circleOne = anime({
     easing: 'cubicBezier(.42,1.04,.17,-0.04)',
     loop: true,
     direction: 'alternate',
-    duration: 7000
+    duration: 5000
 })
 
 let circleTwo = anime({
