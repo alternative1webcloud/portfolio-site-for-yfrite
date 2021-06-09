@@ -8,3 +8,4 @@ readme.md
 node_modules/
 package-lock.json
 .gitignore
+/js/dist

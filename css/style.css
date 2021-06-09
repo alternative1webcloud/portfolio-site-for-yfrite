@@ -125,19 +125,30 @@ body main .main__subblock {
   z-index: 10;
   top: -50px;
   padding: 40px;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1fr, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
 }
 body main .main__subblock .main__text {
   background-color: white;
   position: inherit;
   width: 400px;
   padding: 30px;
-  margin: 30px;
+  margin: 40px 70px;
   border: 7px solid #91c3cf;
   border-radius: 40px;
 }
-body main .main__subblock .main__text:nth-child(1) {
-  left: 100px;
+body main .main__subblock .main__fish_one {
+  width: 600px;
+  position: relative;
+  top: 50px;
 }
-body main .main__subblock .main__text:nth-child(2) {
-  left: 700px;
+body main .main__subblock .main__fish_two {
+  width: 400px;
+  position: relative;
+  top: 50px;
+  left: 100px;
 }
