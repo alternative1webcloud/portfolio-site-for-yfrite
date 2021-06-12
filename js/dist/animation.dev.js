@@ -182,4 +182,17 @@ var circleLines = anime({
   },
   direction: 'alternate',
   loop: true
-});
+}); // let ship = anime({
+//     targets: '.main__ship',
+//     rotate: [
+//         { value: 10, duration: 3000, delay: 500},
+//         { value: 5, duration: 3000, delay: 500},
+//         { value: 10, duration: 3000, delay: 500},
+//     ],
+//     translateY: [
+//         { value: -50, duration: 1000, delay: 500},
+//         { value: -30, duration: 1000, delay: 500},
+//         { value: -50, duration: 1000, delay: 500},
+//     ],
+//     loop: true
+// })

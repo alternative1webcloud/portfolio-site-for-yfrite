@@ -156,13 +156,20 @@ body
                         text-align: right
                         margin-top: $textP
                         margin-left: 130px
-                        margin-bottom: 300px
+                        margin-bottom: 50px
                         font-size: 25px
                         font-weigth: $Bold
                         width: 1100px
                 .main__illustration
                     .main__ship
                         width: 50%
+                        position: relative
+                        top: 125px
+                        left: 50px
+                        z-index: 1
+                    .main__wave 
+                        position: relative
+                        z-index: 2
         .main__subblock
             background-color: white
             color: black
@@ -174,8 +181,8 @@ body
             display: grid
             grid-template-columns: repeat(2, 1fr)
             grid-template-rows: repeat(1fr, 1fr)
-            grid-column-gap: 100px
-            grid-row-gap: 100px
+            grid-column-gap: 50px
+            grid-row-gap: 50px
             .main__text
                 background-color: white
                 position: inherit
